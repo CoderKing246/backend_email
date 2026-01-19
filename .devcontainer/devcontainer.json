@@ -3,5 +3,6 @@
   "image": "mcr.microsoft.com/devcontainers/java:17",
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-  }
+  },
+  "postCreateCommand": "java -version"
 }
